@@ -1,0 +1,49 @@
+.editorWrap{
+    margin: 0 auto;
+    width: 80vw;
+    max-width: 660px;
+}
+
+.editor {
+    width: 650px;
+    height: 200px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px 3px #06283D;
+    background-color: #DFF6FF;
+    outline: none;
+}
+
+.editorWrap .toolbar {
+    display: flex;
+    border: 1px solid black;
+    width: 650px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px 3px #06283D;
+    background-color: #06283D;
+}
+
+.previewWrap {
+    margin: 20px auto;
+    max-width: 710px;
+    border: 1px solid black;
+    height: 20em;
+
+}
+
+.previewWrap .toolbar {
+    display: flex;
+    border: 1px solid black;
+    width: 700px;
+    padding: 5px;
+    box-shadow: 5px 5px 10px 3px #06283D;
+    background-color: #06283D;
+}
+
+.preview {
+    width: 700px;
+    height: 20em;
+    padding: 5px;
+    box-shadow: 5px 5px 10px 3px #06283D;
+    background-color: #DFF6FF;
+    outline: none;
+}
