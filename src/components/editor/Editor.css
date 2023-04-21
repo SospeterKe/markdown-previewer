@@ -3,23 +3,44 @@
     width: 80vw;
     max-width: 660px;
 }
+.icon{
+    color: #DFF6FF;
+
+}
+
+.icon:hover {
+    color: #47B5FF;
+}
 
 .editor {
     width: 650px;
     height: 200px;
-    padding: 5px;
+    padding: 7px;
     box-shadow: 5px 5px 10px 3px #06283D;
     background-color: #DFF6FF;
     outline: none;
 }
 
-.editorWrap .toolbar {
-    display: flex;
-    border: 1px solid black;
-    width: 650px;
-    padding: 5px;
+.toolbar{
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-weight: bold;
     box-shadow: 5px 5px 10px 3px #06283D;
     background-color: #06283D;
+    display: flex;
+    border: 1px solid black;
+}
+
+.editorWrap .toolbar {
+    width: 650px;
+    padding: 7px;
+    
+}
+
+.label{
+    color: #DFF6FF;
+    margin: 0 5px;
 }
 
 .previewWrap {
@@ -31,18 +52,14 @@
 }
 
 .previewWrap .toolbar {
-    display: flex;
-    border: 1px solid black;
     width: 700px;
-    padding: 5px;
-    box-shadow: 5px 5px 10px 3px #06283D;
-    background-color: #06283D;
+    padding: 7px;
 }
 
 .preview {
     width: 700px;
     height: 20em;
-    padding: 5px;
+    padding: 7px;
     box-shadow: 5px 5px 10px 3px #06283D;
     background-color: #DFF6FF;
     outline: none;
