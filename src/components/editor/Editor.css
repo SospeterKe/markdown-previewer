@@ -44,18 +44,18 @@
 .previewWrap {
     margin: 1.25rem auto;
     max-width: 65vw;
-    height: 20em;
+    min-height: 20em;
+    height: auto;
 
 }
 
 .preview {
     width: 99%;
-    min-height: 20em;
-    height: auto;
     padding: 7px;
     box-shadow: 5px 5px 10px 3px #06283D;
     background-color: #DFF6FF;
     outline: none;
     border: 1px solid black;
     text-align: start;
+    overflow-x: auto;
 }
