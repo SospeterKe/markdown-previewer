@@ -18,6 +18,7 @@
     box-shadow: 5px 5px 10px 3px #06283D;
     background-color: #DFF6FF;
     outline: none;
+    border: 1px solid black;
 }
 .editor.fullScreen {
     height: 100vh;
